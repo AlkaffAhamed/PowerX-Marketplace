@@ -10,6 +10,7 @@ Day 3 assignment for the subject Fundamentals in Frontend Development in PowerX 
 
 - [x] Deployed into Netlify
 
-App link: 
+App link: [https://powerx-marketplace.netlify.app/](https://powerx-marketplace.netlify.app/)
 
 Styleguide: 
+
