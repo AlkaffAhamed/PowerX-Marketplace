@@ -1,4 +1,4 @@
-import { LoginForm, useAuthState } from "domains/auth";
+import { LoginForm, useAuth } from "domains/auth";
 import { ListingItem, useListings, CartItem, useCartItems} from "domains/marketplace";
 import { getPriceString } from 'lib/price-string';
 import * as React from "react";
@@ -79,7 +79,7 @@ const CartEmpty = () => (
 
 export const MarketplacePublic = () => {
   const { listings } = useListings();
-  const auth = useAuthState();
+  const auth = useAuth();
   const { cartItems, loadCartItems } = useCartItems([]);
 
   const cartSection = [];
@@ -95,13 +95,13 @@ export const MarketplacePublic = () => {
   return (
     <div className="w-full flex flex-row">
       <div className="w-3/4 mx-auto pt-16 pb-24 px-4 sm:px-6 lg:px-8">
-        {auth.status === "anonymous" && (
+        {/* {auth.status === "anonymous" && (
           <LoginForm
             onSuccess={(accessToken) => {
               auth.login(accessToken);
             }}
           />
-        )}
+        )} */}
         <div className="grid md:grid-cols-2 gap-x-4 gap-y-8 xl:grid-cols-3 xl:gap-x-6">
           {listings &&
             listings.map((item) => (
