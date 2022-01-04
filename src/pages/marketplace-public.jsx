@@ -87,6 +87,7 @@ export const MarketplacePublic = () => {
     cartSection.push(
       <CartItemList items={cartItems} token={auth.accessToken} reload={loadCartItems} key="cart-item-list" />,
     );
+    <CartTotal items={cartItems} key="cart-total" />
   }
   else {
     cartSection.push(<CartEmpty key="cart-empty" />);

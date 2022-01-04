@@ -12,5 +12,5 @@ Day 3 assignment for the subject Fundamentals in Frontend Development in PowerX 
 
 App link: [https://powerx-marketplace.netlify.app/](https://powerx-marketplace.netlify.app/)
 
-Styleguide: 
+Styleguide: [https://powerx-marketplace-styleguidist.netlify.app/](https://powerx-marketplace-styleguidist.netlify.app/)
 
