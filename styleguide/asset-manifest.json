@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f2b308da.chunk.css",
-    "main.js": "/build/main.40da437b.js",
+    "main.js": "/build/main.c42bc0e1.js",
     "runtime-main.js": "/build/bundle.d27f85f7.js",
-    "build/2.5199e9df.js": "/build/2.5199e9df.js",
-    "build/2.5199e9df.js.LICENSE.txt": "/build/2.5199e9df.js.LICENSE.txt",
+    "build/2.48c29247.js": "/build/2.48c29247.js",
+    "build/2.48c29247.js.LICENSE.txt": "/build/2.48c29247.js.LICENSE.txt",
     "index.html": "/index.html",
     "static/css/main.f2b308da.chunk.css.map": "/static/css/main.f2b308da.chunk.css.map"
   },
   "entrypoints": [
     "build/bundle.d27f85f7.js",
-    "build/2.5199e9df.js",
+    "build/2.48c29247.js",
     "static/css/main.f2b308da.chunk.css",
-    "build/main.40da437b.js"
+    "build/main.c42bc0e1.js"
   ]
 }
